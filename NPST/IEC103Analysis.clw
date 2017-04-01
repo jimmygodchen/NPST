@@ -22,10 +22,10 @@ Class5=CAboutDlg
 Resource3=IDR_CNTR_INPLACE
 Resource5=IDD_ABOUTBOX
 Resource6=IDR_PASTE_MENU
-Resource7=IDD_DLG_COMCFG
+Resource7=IDR_CONTEXT_MENU
 Class6=CMyCOMCfg
 Class7=CMyPortSCIDlg
-Resource8=IDR_CONTEXT_MENU
+Resource8=IDD_DLG_COMCFG
 
 [CLS:CIEC103AnalysisApp]
 Type=0

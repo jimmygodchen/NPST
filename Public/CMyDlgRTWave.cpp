@@ -130,7 +130,18 @@ void CMyDlgRTWave::ShowWave(void)
         tRTWAVECHINFO ChInfo = m_pRTWave->GetChInfo(i);
         pChart->ShowSeries(ChInfo.bVisible, i);
     }
+//     pChart->SetZoomScrollConfig(BCGPChartMouseConfig::ZSO_NONE);
     pChart->SetAutoDisplayRange(TRUE, TRUE);
+
+//     CBCGPChartAxis* pXAxis = pChart->GetChartAxis(BCGP_CHART_X_PRIMARY_AXIS);
+//     ASSERT_VALID(pXAxis);
+//     pXAxis->ShowScrollBar(m_bZoom);
+//     pXAxis->SetMaxZoomInFactor(20); // allow more details on X axis
+    
+    // X Axis should be always at the diagram bottom along with its labels
+//     pXAxis->m_crossType = CBCGPChartAxis::CT_FIXED_DEFAULT_POS;             // 坐标轴放到最下方
+//     pXAxis->m_axisLabelType = CBCGPChartAxis::ALT_LOW;                      // 坐标轴标签放到最下方
+
     pChart->SetDirty(TRUE, TRUE);
 //     pChart->Redraw();
 }

@@ -12,8 +12,8 @@ ClassCount=1
 
 ResourceCount=2
 Class1=CMyDlgRTWave
-Resource1=IDD_DLG_RTWAVE
-Resource2=IDR_MENU_POPUP
+Resource1=IDR_MENU_POPUP
+Resource2=IDD_DLG_RTWAVE
 
 [DLG:IDD_DLG_RTWAVE]
 Type=1
