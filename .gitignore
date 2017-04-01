@@ -21,16 +21,17 @@
 *.lai
 *.la
 *.a
-*.ilk
-*.ncb
-*.cfg
-*.www
-*.opt
 
 # Executables
 *.exe
 *.out
 *.app
 
+*.ilk
+*.ncb
+*.cfg
+*.www
+*.opt
+*.plg
 Bin
 
