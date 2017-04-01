@@ -34,4 +34,12 @@
 *.opt
 *.plg
 Bin
-
+Debug
+*.bsc
+*.exp
+*.pdb
+*.sbr
+*.exp
+*.res
+*.idb
+*.pdb
