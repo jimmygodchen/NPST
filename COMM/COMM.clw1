@@ -1,0 +1,21 @@
+; CLW file contains information for the MFC ClassWizard
+
+[General Info]
+Version=1
+LastClass=
+LastTemplate=CDialog
+NewFileInclude1=#include "stdafx.h"
+NewFileInclude2=#include "comm.h"
+LastPage=0
+
+ClassCount=0
+
+ResourceCount=1
+Resource1=IDD_PORT_SCI
+
+[DLG:IDD_PORT_SCI]
+Type=1
+Class=?
+ControlCount=1
+Control1=IDC_STATIC,static,1342308352
+

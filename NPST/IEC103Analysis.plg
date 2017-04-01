@@ -1,0 +1,604 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Public - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\Debug\Public/Public.res" /d "_DEBUG" /d "_AFXDLL" "G:\VC\NZ\NPST\Public\Public.rc"" 
+Creating temporary file "D:\Temp\RSP70D0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /I ".\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /D "_PUBLIC_IMPL" /Fp"..\Debug\Public/Public.pch" /YX"stdafx.h" /Fo"..\Debug\Public/" /Fd"..\Debug\Public/" /FD /GZ /c 
+"G:\VC\NZ\NPST\Pub\src\CMyData.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyDataBin.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyDataFloat.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyDataMem.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyDataOperate.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyDataString.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyDataVector.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyDataView.cpp"
+"G:\VC\NZ\NPST\Public\CMyDlgRTWave.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyEnumSCI.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyEventMng.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyFactory.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyObj.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyPort.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyPortMng.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyRTWave.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyUnit.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyVector.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyWaveInfo.cpp"
+"G:\VC\NZ\NPST\Pub\src\Pub.cpp"
+"G:\VC\NZ\NPST\Public\Public.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP70D0.tmp" 
+Creating temporary file "D:\Temp\RSP70D1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /I ".\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /D "_PUBLIC_IMPL" /Fp"..\Debug\Public/Public.pch" /Yc"stdafx.h" /Fo"..\Debug\Public/" /Fd"..\Debug\Public/" /FD /GZ /c 
+"G:\VC\NZ\NPST\Public\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP70D1.tmp" 
+Creating temporary file "D:\Temp\RSP70D2.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"..\Pub/Public.pdb" /debug /machine:I386 /def:".\Public.def" /out:"..\bin/Public.dll" /implib:"..\Pub/Public.lib" /pdbtype:sept 
+\VC\NZ\NPST\Debug\Public\CMyData.obj
+\VC\NZ\NPST\Debug\Public\CMyDataBin.obj
+\VC\NZ\NPST\Debug\Public\CMyDataFloat.obj
+\VC\NZ\NPST\Debug\Public\CMyDataMem.obj
+\VC\NZ\NPST\Debug\Public\CMyDataOperate.obj
+\VC\NZ\NPST\Debug\Public\CMyDataString.obj
+\VC\NZ\NPST\Debug\Public\CMyDataVector.obj
+\VC\NZ\NPST\Debug\Public\CMyDataView.obj
+\VC\NZ\NPST\Debug\Public\CMyDlgRTWave.obj
+\VC\NZ\NPST\Debug\Public\CMyEnumSCI.obj
+\VC\NZ\NPST\Debug\Public\CMyEventMng.obj
+\VC\NZ\NPST\Debug\Public\CMyFactory.obj
+\VC\NZ\NPST\Debug\Public\CMyObj.obj
+\VC\NZ\NPST\Debug\Public\CMyPort.obj
+\VC\NZ\NPST\Debug\Public\CMyPortMng.obj
+\VC\NZ\NPST\Debug\Public\CMyRTWave.obj
+\VC\NZ\NPST\Debug\Public\CMyUnit.obj
+\VC\NZ\NPST\Debug\Public\CMyVector.obj
+\VC\NZ\NPST\Debug\Public\CMyWaveInfo.obj
+\VC\NZ\NPST\Debug\Public\Pub.obj
+\VC\NZ\NPST\Debug\Public\Public.obj
+\VC\NZ\NPST\Debug\Public\StdAfx.obj
+\VC\NZ\NPST\Debug\Public\Public.res
+]
+Creating command line "link.exe @D:\Temp\RSP70D2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CMyData.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyDataBin.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyDataFloat.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyDataMem.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyDataOperate.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyDataString.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyDataVector.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyDataView.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyDlgRTWave.cpp
+Automatically linking with BCGCBPRO2210D.lib
+G:\VC\NZ\NPST\Public\CMyDlgRTWave.cpp(250) : warning C4018: '<' : signed/unsigned mismatch
+CMyEnumSCI.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyEventMng.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyFactory.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyObj.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyPort.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyPortMng.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyRTWave.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyUnit.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyVector.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyWaveInfo.cpp
+Automatically linking with BCGCBPRO2210D.lib
+Pub.cpp
+Automatically linking with BCGCBPRO2210D.lib
+Public.cpp
+Automatically linking with BCGCBPRO2210D.lib
+Linking...
+   Creating library ..\Pub/Public.lib and object ..\Pub/Public.exp
+<h3>
+--------------------Configuration: COMM - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\Debug\COMM/COMM.res" /d "_DEBUG" /d "_AFXDLL" "G:\VC\NZ\NPST\COMM\COMM.rc"" 
+Creating temporary file "D:\Temp\RSPFC2B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"..\Debug\COMM/" /Fp"..\Debug\COMM/COMM.pch" /YX"stdafx.h" /Fo"..\Debug\COMM/" /Fd"..\Debug\COMM/" /FD /GZ /c 
+"G:\VC\NZ\NPST\COMM\CMyPortSCIDlg.cpp"
+"G:\VC\NZ\NPST\COMM\CMySCI.cpp"
+"G:\VC\NZ\NPST\COMM\COMM.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPFC2B.tmp" 
+Creating temporary file "D:\Temp\RSPFC2C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"..\Debug\COMM/" /Fp"..\Debug\COMM/COMM.pch" /Yc"stdafx.h" /Fo"..\Debug\COMM/" /Fd"..\Debug\COMM/" /FD /GZ /c 
+"G:\VC\NZ\NPST\COMM\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPFC2C.tmp" 
+Creating temporary file "D:\Temp\RSPFC2D.tmp" with contents
+[
+..\Pub\Public.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"..\Debug\COMM/COMM.pdb" /debug /machine:I386 /def:".\COMM.def" /out:"..\bin\COMM.dll" /implib:"..\Debug\COMM/COMM.lib" /pdbtype:sept 
+\VC\NZ\NPST\Debug\COMM\CMyPortSCIDlg.obj
+\VC\NZ\NPST\Debug\COMM\CMySCI.obj
+\VC\NZ\NPST\Debug\COMM\COMM.obj
+\VC\NZ\NPST\Debug\COMM\StdAfx.obj
+\VC\NZ\NPST\Debug\COMM\COMM.res
+\VC\NZ\NPST\Pub\Public.lib
+]
+Creating command line "link.exe @D:\Temp\RSPFC2D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Automatically linking with BCGCBPRO2210D.lib
+Compiling...
+CMyPortSCIDlg.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMySCI.cpp
+COMM.cpp
+Linking...
+   Creating library ..\Debug\COMM/COMM.lib and object ..\Debug\COMM/COMM.exp
+Creating command line "bscmake.exe /nologo /o"..\Debug\COMM/COMM.bsc"  \VC\NZ\NPST\Debug\COMM\StdAfx.sbr \VC\NZ\NPST\Debug\COMM\CMyPortSCIDlg.sbr \VC\NZ\NPST\Debug\COMM\CMySCI.sbr \VC\NZ\NPST\Debug\COMM\COMM.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+<h3>
+--------------------Configuration: NPS7510 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\Debug\NPS7510/NPS7510.res" /d "_DEBUG" /d "_AFXDLL" "G:\VC\NZ\NPST\NPS7510\NPS7510.rc"" 
+Creating temporary file "D:\Temp\RSP1E1D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"..\Debug\NPS7510/" /Fp"..\Debug\NPS7510/NPS7510.pch" /YX"stdafx.h" /Fo"..\Debug\NPS7510/" /Fd"..\Debug\NPS7510/" /FD /GZ /c 
+"G:\VC\NZ\NPST\NPS7510\CMyDlgParam.cpp"
+"G:\VC\NZ\NPST\NPS7510\CMyDlgRegulate.cpp"
+"G:\VC\NZ\NPST\NPS7510\CMyDlgSetpoint.cpp"
+"G:\VC\NZ\NPST\NPS7510\CMyDlgYC.cpp"
+"G:\VC\NZ\NPST\NPS7510\CMyGridCtrl.cpp"
+"G:\VC\NZ\NPST\NPS7510\CMyNPS7510Dlg.cpp"
+"G:\VC\NZ\NPST\NPS7510\CMyOpenList.cpp"
+"G:\VC\NZ\NPST\NPS7510\customcells.cpp"
+"G:\VC\NZ\NPST\NPS7510\NPS7510.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP1E1D.tmp" 
+Creating temporary file "D:\Temp\RSP1E1E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"..\Debug\NPS7510/" /Fp"..\Debug\NPS7510/NPS7510.pch" /Yc"stdafx.h" /Fo"..\Debug\NPS7510/" /Fd"..\Debug\NPS7510/" /FD /GZ /c 
+"G:\VC\NZ\NPST\NPS7510\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP1E1E.tmp" 
+Creating temporary file "D:\Temp\RSP1E1F.tmp" with contents
+[
+..\Pub\Public.lib winmm.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"..\Debug\NPS7510/NPS7510.pdb" /debug /machine:I386 /def:".\NPS7510.def" /out:"..\bin\NPS7510.dll" /implib:"..\Debug\NPS7510/NPS7510.lib" /pdbtype:sept 
+\VC\NZ\NPST\Debug\NPS7510\CMyDlgParam.obj
+\VC\NZ\NPST\Debug\NPS7510\CMyDlgRegulate.obj
+\VC\NZ\NPST\Debug\NPS7510\CMyDlgSetpoint.obj
+\VC\NZ\NPST\Debug\NPS7510\CMyDlgYC.obj
+\VC\NZ\NPST\Debug\NPS7510\CMyGridCtrl.obj
+\VC\NZ\NPST\Debug\NPS7510\CMyNPS7510Dlg.obj
+\VC\NZ\NPST\Debug\NPS7510\CMyOpenList.obj
+\VC\NZ\NPST\Debug\NPS7510\customcells.obj
+\VC\NZ\NPST\Debug\NPS7510\NPS7510.obj
+\VC\NZ\NPST\Debug\NPS7510\StdAfx.obj
+\VC\NZ\NPST\Debug\NPS7510\NPS7510.res
+\VC\NZ\NPST\Pub\Public.lib
+]
+Creating command line "link.exe @D:\Temp\RSP1E1F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Automatically linking with BCGCBPRO2210D.lib
+Compiling...
+CMyDlgParam.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyDlgRegulate.cpp
+G:\VC\NZ\NPST\NPS7510\CMyDlgRegulate.cpp(95) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+G:\VC\NZ\NPST\NPS7510\CMyDlgRegulate.cpp(100) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+CMyDlgSetpoint.cpp
+G:\VC\NZ\NPST\NPS7510\CMyDlgSetpoint.cpp(195) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\NPS7510\CMyDlgSetpoint.cpp(197) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\NPS7510\CMyDlgSetpoint.cpp(202) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\NPS7510\CMyDlgSetpoint.cpp(204) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\NPS7510\CMyDlgSetpoint.cpp(209) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\NPS7510\CMyDlgSetpoint.cpp(211) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\NPS7510\CMyDlgSetpoint.cpp(215) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\NPS7510\CMyDlgSetpoint.cpp(219) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\NPS7510\CMyDlgSetpoint.cpp(221) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\NPS7510\CMyDlgSetpoint.cpp(225) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\NPS7510\CMyDlgSetpoint.cpp(227) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\NPS7510\CMyDlgSetpoint.cpp(231) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\NPS7510\CMyDlgSetpoint.cpp(233) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\NPS7510\CMyDlgSetpoint.cpp(237) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\NPS7510\CMyDlgSetpoint.cpp(239) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\NPS7510\CMyDlgSetpoint.cpp(241) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+CMyDlgYC.cpp
+CMyGridCtrl.cpp
+CMyNPS7510Dlg.cpp
+CMyOpenList.cpp
+customcells.cpp
+NPS7510.cpp
+G:\VC\NZ\NPST\NPS7510\NPS7510.cpp(724) : warning C4018: '<' : signed/unsigned mismatch
+G:\VC\NZ\NPST\NPS7510\NPS7510.cpp(1009) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+G:\VC\NZ\NPST\NPS7510\NPS7510.cpp(1010) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+G:\VC\NZ\NPST\NPS7510\NPS7510.cpp(1011) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+G:\VC\NZ\NPST\NPS7510\NPS7510.cpp(1012) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+G:\VC\NZ\NPST\NPS7510\NPS7510.cpp(1013) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+G:\VC\NZ\NPST\NPS7510\NPS7510.cpp(1375) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Linking...
+   Creating library ..\Debug\NPS7510/NPS7510.lib and object ..\Debug\NPS7510/NPS7510.exp
+Creating temporary file "D:\Temp\RSP49D4.tmp" with contents
+[
+/nologo /o"..\Debug\NPS7510/NPS7510.bsc" 
+\VC\NZ\NPST\Debug\NPS7510\StdAfx.sbr
+\VC\NZ\NPST\Debug\NPS7510\CMyDlgParam.sbr
+\VC\NZ\NPST\Debug\NPS7510\CMyDlgRegulate.sbr
+\VC\NZ\NPST\Debug\NPS7510\CMyDlgSetpoint.sbr
+\VC\NZ\NPST\Debug\NPS7510\CMyDlgYC.sbr
+\VC\NZ\NPST\Debug\NPS7510\CMyGridCtrl.sbr
+\VC\NZ\NPST\Debug\NPS7510\CMyNPS7510Dlg.sbr
+\VC\NZ\NPST\Debug\NPS7510\CMyOpenList.sbr
+\VC\NZ\NPST\Debug\NPS7510\customcells.sbr
+\VC\NZ\NPST\Debug\NPS7510\NPS7510.sbr]
+Creating command line "bscmake.exe @D:\Temp\RSP49D4.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+<h3>
+--------------------Configuration: UDP - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\Debug\UDP/UDP.res" /d "_DEBUG" /d "_AFXDLL" "G:\VC\NZ\NPST\UDP\UDP.rc"" 
+Creating temporary file "D:\Temp\RSP5687.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"..\Debug\UDP/" /Fp"..\Debug\UDP/UDP.pch" /YX"stdafx.h" /Fo"..\Debug\UDP/" /Fd"..\Debug\UDP/" /FD /GZ /c 
+"G:\VC\NZ\NPST\UDP\CMyUDPDlg.cpp"
+"G:\VC\NZ\NPST\UDP\UDP.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP5687.tmp" 
+Creating temporary file "D:\Temp\RSP5698.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"..\Debug\UDP/" /Fp"..\Debug\UDP/UDP.pch" /Yc"stdafx.h" /Fo"..\Debug\UDP/" /Fd"..\Debug\UDP/" /FD /GZ /c 
+"G:\VC\NZ\NPST\UDP\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP5698.tmp" 
+Creating temporary file "D:\Temp\RSP5699.tmp" with contents
+[
+..\Pub\Public.lib ws2_32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"..\Debug\UDP/UDP.pdb" /debug /machine:I386 /def:".\UDP.def" /out:"..\bin\UDP.dll" /implib:"..\Debug\UDP/UDP.lib" /pdbtype:sept 
+\VC\NZ\NPST\Debug\UDP\CMyUDPDlg.obj
+\VC\NZ\NPST\Debug\UDP\StdAfx.obj
+\VC\NZ\NPST\Debug\UDP\UDP.obj
+\VC\NZ\NPST\Debug\UDP\UDP.res
+]
+Creating command line "link.exe @D:\Temp\RSP5699.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Automatically linking with BCGCBPRO2210D.lib
+Compiling...
+CMyUDPDlg.cpp
+Automatically linking with BCGCBPRO2210D.lib
+UDP.cpp
+Linking...
+   Creating library ..\Debug\UDP/UDP.lib and object ..\Debug\UDP/UDP.exp
+Creating command line "bscmake.exe /nologo /o"..\Debug\UDP/UDP.bsc"  \VC\NZ\NPST\Debug\UDP\StdAfx.sbr \VC\NZ\NPST\Debug\UDP\CMyUDPDlg.sbr \VC\NZ\NPST\Debug\UDP\UDP.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+<h3>
+--------------------Configuration: DataViewN - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\Debug\DataViewN/DataViewN.res" /d "_DEBUG" /d "_AFXDLL" "G:\VC\NZ\NPST\DataViewN\DataViewN.rc"" 
+Creating temporary file "D:\Temp\RSP7647.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"..\Debug\DataViewN/" /Fp"..\Debug\DataViewN/DataViewN.pch" /YX"stdafx.h" /Fo"..\Debug\DataViewN/" /Fd"..\Debug\DataViewN/" /FD /GZ /c 
+"G:\VC\NZ\NPST\DataViewN\CMyDlgDataView.cpp"
+"G:\VC\NZ\NPST\DataViewN\customcells.cpp"
+"G:\VC\NZ\NPST\DataViewN\DataViewN.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP7647.tmp" 
+Creating temporary file "D:\Temp\RSP7648.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"..\Debug\DataViewN/" /Fp"..\Debug\DataViewN/DataViewN.pch" /Yc"stdafx.h" /Fo"..\Debug\DataViewN/" /Fd"..\Debug\DataViewN/" /FD /GZ /c 
+"G:\VC\NZ\NPST\DataViewN\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP7648.tmp" 
+Creating temporary file "D:\Temp\RSP7649.tmp" with contents
+[
+..\Pub\Public.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"..\Debug\DataViewN/DataViewN.pdb" /debug /machine:I386 /def:".\DataViewN.def" /out:"..\bin\DataViewN.dll" /implib:"..\Debug\DataViewN/DataViewN.lib" /pdbtype:sept 
+\VC\NZ\NPST\Debug\DataViewN\CMyDlgDataView.obj
+\VC\NZ\NPST\Debug\DataViewN\customcells.obj
+\VC\NZ\NPST\Debug\DataViewN\DataViewN.obj
+\VC\NZ\NPST\Debug\DataViewN\StdAfx.obj
+\VC\NZ\NPST\Debug\DataViewN\DataViewN.res
+]
+Creating command line "link.exe @D:\Temp\RSP7649.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Automatically linking with BCGCBPRO2210D.lib
+Compiling...
+CMyDlgDataView.cpp
+Automatically linking with BCGCBPRO2210D.lib
+customcells.cpp
+DataViewN.cpp
+Linking...
+   Creating library ..\Debug\DataViewN/DataViewN.lib and object ..\Debug\DataViewN/DataViewN.exp
+Creating command line "bscmake.exe /nologo /o"..\Debug\DataViewN/DataViewN.bsc"  \VC\NZ\NPST\Debug\DataViewN\StdAfx.sbr \VC\NZ\NPST\Debug\DataViewN\CMyDlgDataView.sbr \VC\NZ\NPST\Debug\DataViewN\customcells.sbr \VC\NZ\NPST\Debug\DataViewN\DataViewN.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+<h3>
+--------------------Configuration: PM310 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\Debug\PM310/PM310.res" /d "_DEBUG" /d "_AFXDLL" "G:\VC\NZ\NPST\PM310\PM310.rc"" 
+Creating temporary file "D:\Temp\RSP98B6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"..\Debug\PM310/" /Fp"..\Debug\PM310/PM310.pch" /YX"stdafx.h" /Fo"..\Debug\PM310/" /Fd"..\Debug\PM310/" /FD /GZ /c 
+"G:\VC\NZ\NPST\PM310\CMyDlgOpList.cpp"
+"G:\VC\NZ\NPST\PM310\CMyDlgParam.cpp"
+"G:\VC\NZ\NPST\PM310\CMyDlgRegulate.cpp"
+"G:\VC\NZ\NPST\PM310\CMyDlgSetpoint.cpp"
+"G:\VC\NZ\NPST\PM310\CMyDlgUnitParam.cpp"
+"G:\VC\NZ\NPST\PM310\CMyGridCtrl.cpp"
+"G:\VC\NZ\NPST\PM310\CMyUnitModbus.cpp"
+"G:\VC\NZ\NPST\PM310\customcells.cpp"
+"G:\VC\NZ\NPST\PM310\PM310.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP98B6.tmp" 
+Creating temporary file "D:\Temp\RSP98B7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"..\Debug\PM310/" /Fp"..\Debug\PM310/PM310.pch" /Yc"stdafx.h" /Fo"..\Debug\PM310/" /Fd"..\Debug\PM310/" /FD /GZ /c 
+"G:\VC\NZ\NPST\PM310\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP98B7.tmp" 
+Creating temporary file "D:\Temp\RSP98B8.tmp" with contents
+[
+..\Pub\Public.lib winmm.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"..\Debug\PM310/PM310.pdb" /debug /machine:I386 /def:".\PM310.def" /out:"..\bin\PM310.dll" /implib:"..\Debug\PM310/PM310.lib" /pdbtype:sept 
+\VC\NZ\NPST\Debug\PM310\CMyDlgOpList.obj
+\VC\NZ\NPST\Debug\PM310\CMyDlgParam.obj
+\VC\NZ\NPST\Debug\PM310\CMyDlgRegulate.obj
+\VC\NZ\NPST\Debug\PM310\CMyDlgSetpoint.obj
+\VC\NZ\NPST\Debug\PM310\CMyDlgUnitParam.obj
+\VC\NZ\NPST\Debug\PM310\CMyGridCtrl.obj
+\VC\NZ\NPST\Debug\PM310\CMyUnitModbus.obj
+\VC\NZ\NPST\Debug\PM310\customcells.obj
+\VC\NZ\NPST\Debug\PM310\PM310.obj
+\VC\NZ\NPST\Debug\PM310\StdAfx.obj
+\VC\NZ\NPST\Debug\PM310\PM310.res
+]
+Creating command line "link.exe @D:\Temp\RSP98B8.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Automatically linking with BCGCBPRO2210D.lib
+Compiling...
+CMyDlgOpList.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyDlgParam.cpp
+CMyDlgRegulate.cpp
+CMyDlgSetpoint.cpp
+G:\VC\NZ\NPST\PM310\CMyDlgSetpoint.cpp(206) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\PM310\CMyDlgSetpoint.cpp(208) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\PM310\CMyDlgSetpoint.cpp(214) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\PM310\CMyDlgSetpoint.cpp(216) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\PM310\CMyDlgSetpoint.cpp(222) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\PM310\CMyDlgSetpoint.cpp(224) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\PM310\CMyDlgSetpoint.cpp(230) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\PM310\CMyDlgSetpoint.cpp(232) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\PM310\CMyDlgSetpoint.cpp(238) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\PM310\CMyDlgSetpoint.cpp(240) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\PM310\CMyDlgSetpoint.cpp(246) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+G:\VC\NZ\NPST\PM310\CMyDlgSetpoint.cpp(248) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+CMyDlgUnitParam.cpp
+CMyGridCtrl.cpp
+CMyUnitModbus.cpp
+G:\VC\NZ\NPST\PM310\CMyUnitModbus.cpp(69) : warning C4018: '<' : signed/unsigned mismatch
+customcells.cpp
+PM310.cpp
+G:\VC\NZ\NPST\PM310\PM310.cpp(747) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\PM310\PM310.cpp(749) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\PM310\PM310.cpp(751) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\PM310\PM310.cpp(753) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\PM310\PM310.cpp(755) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\PM310\PM310.cpp(757) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\PM310\PM310.cpp(759) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\PM310\PM310.cpp(761) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\PM310\PM310.cpp(763) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\PM310\PM310.cpp(836) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+G:\VC\NZ\NPST\PM310\PM310.cpp(837) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+G:\VC\NZ\NPST\PM310\PM310.cpp(838) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+G:\VC\NZ\NPST\PM310\PM310.cpp(839) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+G:\VC\NZ\NPST\PM310\PM310.cpp(840) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+Linking...
+   Creating library ..\Debug\PM310/PM310.lib and object ..\Debug\PM310/PM310.exp
+Creating temporary file "D:\Temp\RSPC46D.tmp" with contents
+[
+/nologo /o"..\Debug\PM310/PM310.bsc" 
+\VC\NZ\NPST\Debug\PM310\StdAfx.sbr
+\VC\NZ\NPST\Debug\PM310\CMyDlgOpList.sbr
+\VC\NZ\NPST\Debug\PM310\CMyDlgParam.sbr
+\VC\NZ\NPST\Debug\PM310\CMyDlgRegulate.sbr
+\VC\NZ\NPST\Debug\PM310\CMyDlgSetpoint.sbr
+\VC\NZ\NPST\Debug\PM310\CMyDlgUnitParam.sbr
+\VC\NZ\NPST\Debug\PM310\CMyGridCtrl.sbr
+\VC\NZ\NPST\Debug\PM310\CMyUnitModbus.sbr
+\VC\NZ\NPST\Debug\PM310\customcells.sbr
+\VC\NZ\NPST\Debug\PM310\PM310.sbr]
+Creating command line "bscmake.exe @D:\Temp\RSPC46D.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+<h3>
+--------------------Configuration: HN953L - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\Debug\HN953L/HN953L.res" /d "_DEBUG" /d "_AFXDLL" "G:\VC\NZ\NPST\HN953L\HN953L.rc"" 
+Creating temporary file "D:\Temp\RSPD0A3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"..\Debug\HN953L/" /Fp"..\Debug\HN953L/HN953L.pch" /YX"stdafx.h" /Fo"..\Debug\HN953L/" /Fd"..\Debug\HN953L/" /FD /GZ /c 
+"G:\VC\NZ\NPST\HN953L\CMyDlgOpList.cpp"
+"G:\VC\NZ\NPST\HN953L\CMyDlgParam.cpp"
+"G:\VC\NZ\NPST\HN953L\CMyDlgRegulate.cpp"
+"G:\VC\NZ\NPST\HN953L\CMyDlgSetpoint.cpp"
+"G:\VC\NZ\NPST\HN953L\CMyDlgUnitParam.cpp"
+"G:\VC\NZ\NPST\HN953L\CMyDlgYK.cpp"
+"G:\VC\NZ\NPST\HN953L\CMyGridCtrl.cpp"
+"G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp"
+"G:\VC\NZ\NPST\HN953L\CMyUnitModbus.cpp"
+"G:\VC\NZ\NPST\HN953L\customcells.cpp"
+"G:\VC\NZ\NPST\HN953L\HN953L.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPD0A3.tmp" 
+Creating temporary file "D:\Temp\RSPD0A4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"..\Debug\HN953L/" /Fp"..\Debug\HN953L/HN953L.pch" /Yc"stdafx.h" /Fo"..\Debug\HN953L/" /Fd"..\Debug\HN953L/" /FD /GZ /c 
+"G:\VC\NZ\NPST\HN953L\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPD0A4.tmp" 
+Creating temporary file "D:\Temp\RSPD0A5.tmp" with contents
+[
+..\Pub\Public.lib winmm.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"..\Debug\HN953L/HN953L.pdb" /debug /machine:I386 /def:".\HN953L.def" /out:"..\bin\HN953L.dll" /implib:"..\Debug\HN953L/HN953L.lib" /pdbtype:sept 
+\VC\NZ\NPST\Debug\HN953L\CMyDlgOpList.obj
+\VC\NZ\NPST\Debug\HN953L\CMyDlgParam.obj
+\VC\NZ\NPST\Debug\HN953L\CMyDlgRegulate.obj
+\VC\NZ\NPST\Debug\HN953L\CMyDlgSetpoint.obj
+\VC\NZ\NPST\Debug\HN953L\CMyDlgUnitParam.obj
+\VC\NZ\NPST\Debug\HN953L\CMyDlgYK.obj
+\VC\NZ\NPST\Debug\HN953L\CMyGridCtrl.obj
+\VC\NZ\NPST\Debug\HN953L\CMyUnitHN953L.obj
+\VC\NZ\NPST\Debug\HN953L\CMyUnitModbus.obj
+\VC\NZ\NPST\Debug\HN953L\customcells.obj
+\VC\NZ\NPST\Debug\HN953L\HN953L.obj
+\VC\NZ\NPST\Debug\HN953L\StdAfx.obj
+\VC\NZ\NPST\Debug\HN953L\HN953L.res
+]
+Creating command line "link.exe @D:\Temp\RSPD0A5.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Automatically linking with BCGCBPRO2210D.lib
+Compiling...
+CMyDlgOpList.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyDlgParam.cpp
+CMyDlgRegulate.cpp
+CMyDlgSetpoint.cpp
+CMyDlgUnitParam.cpp
+CMyDlgYK.cpp
+CMyGridCtrl.cpp
+CMyUnitHN953L.cpp
+G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp(802) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp(806) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp(808) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp(811) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp(813) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp(816) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp(818) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp(820) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp(822) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp(825) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp(827) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp(829) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp(832) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp(834) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp(974) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp(975) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp(976) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp(977) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+G:\VC\NZ\NPST\HN953L\CMyUnitHN953L.cpp(978) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+CMyUnitModbus.cpp
+G:\VC\NZ\NPST\HN953L\CMyUnitModbus.cpp(69) : warning C4018: '<' : signed/unsigned mismatch
+customcells.cpp
+HN953L.cpp
+Linking...
+   Creating library ..\Debug\HN953L/HN953L.lib and object ..\Debug\HN953L/HN953L.exp
+<h3>
+--------------------Configuration: IEC103Analysis - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\Debug\NPST/IEC103Analysis.res" /d "_DEBUG" /d "_AFXDLL" "G:\VC\NZ\NPST\NPST\IEC103Analysis.rc"" 
+Creating temporary file "D:\Temp\RSP18A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"..\Debug\NPST/" /Fp"..\Debug\NPST/IEC103Analysis.pch" /YX"stdafx.h" /Fo"..\Debug\NPST/" /Fd"..\Debug\NPST/" /FD /GZ /c 
+"G:\VC\NZ\NPST\NPST\CMyConfig.cpp"
+"G:\VC\NZ\NPST\NPST\CntrItem.cpp"
+"G:\VC\NZ\NPST\NPST\IEC103Analysis.cpp"
+"G:\VC\NZ\NPST\NPST\IEC103AnalysisDoc.cpp"
+"G:\VC\NZ\NPST\NPST\IEC103AnalysisView.cpp"
+"G:\VC\NZ\NPST\NPST\MainFrm.cpp"
+"G:\VC\NZ\NPST\NPST\OutputBar.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP18A.tmp" 
+Creating temporary file "D:\Temp\RSP18B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"..\Debug\NPST/" /Fp"..\Debug\NPST/IEC103Analysis.pch" /Yc"stdafx.h" /Fo"..\Debug\NPST/" /Fd"..\Debug\NPST/" /FD /GZ /c 
+"G:\VC\NZ\NPST\NPST\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP18B.tmp" 
+Creating temporary file "D:\Temp\RSP18C.tmp" with contents
+[
+winmm.lib ..\Pub\Public.lib /nologo /subsystem:windows /incremental:yes /pdb:"..\Debug\NPST/NPST.pdb" /debug /machine:I386 /out:"..\bin/NPST.exe" /pdbtype:sept 
+\VC\NZ\NPST\Debug\NPST\CMyConfig.obj
+\VC\NZ\NPST\Debug\NPST\CntrItem.obj
+\VC\NZ\NPST\Debug\NPST\IEC103Analysis.obj
+\VC\NZ\NPST\Debug\NPST\IEC103AnalysisDoc.obj
+\VC\NZ\NPST\Debug\NPST\IEC103AnalysisView.obj
+\VC\NZ\NPST\Debug\NPST\MainFrm.obj
+\VC\NZ\NPST\Debug\NPST\OutputBar.obj
+\VC\NZ\NPST\Debug\NPST\StdAfx.obj
+\VC\NZ\NPST\Debug\NPST\IEC103Analysis.res
+\VC\NZ\NPST\Pub\Public.lib
+\VC\NZ\NPST\Debug\COMM\COMM.lib
+\VC\NZ\NPST\Debug\NPS7510\NPS7510.lib
+\VC\NZ\NPST\Debug\UDP\UDP.lib
+\VC\NZ\NPST\Debug\DataViewN\DataViewN.lib
+\VC\NZ\NPST\Debug\PM310\PM310.lib
+\VC\NZ\NPST\Debug\HN953L\HN953L.lib
+]
+Creating command line "link.exe @D:\Temp\RSP18C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Automatically linking with BCGCBPRO2210D.lib
+Compiling...
+CMyConfig.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CntrItem.cpp
+IEC103Analysis.cpp
+IEC103AnalysisDoc.cpp
+IEC103AnalysisView.cpp
+MainFrm.cpp
+OutputBar.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+NPST.exe - 0 error(s), 73 warning(s)
+</pre>
+</body>
+</html>

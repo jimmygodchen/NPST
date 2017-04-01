@@ -1,0 +1,703 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\IEC103Analysis.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#include ""afxolecl.rc""       // OLE container resources\r\n"
+    "#include ""res\\BCGSoft_ribbon\\IEC103Analysis.ribbon.rc2""    // BCG Designer resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_COMCFG DIALOGEX 0, 0, 257, 299
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "通讯配置"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,66,277,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,155,277,50,14
+    CONTROL         "串口通讯",IDC_RADIO_COMM,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,12,44,48,10
+    CONTROL         "UDP通讯",IDC_RADIO_UDP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,12,60,44,10
+    CONTROL         "模拟TCPIPServer",IDC_RADIO_TCPIPSERVER,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED,12,163,76,10
+    CONTROL         "模拟TCPIPClient",IDC_RADIO_TCPIPCLIENT,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED,11,219,76,10
+    LTEXT           "串口:",IDC_STATIC_COMM_PORT,89,45,21,8
+    COMBOBOX        IDC_COMBO_COMM_PORT,114,43,48,38,CBS_DROPDOWNLIST | 
+                    CBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "波特率:",IDC_STATIC_COMM_BAUD,170,45,29,8
+    COMBOBOX        IDC_COMBO_COMM_BAUD,202,42,48,39,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "本机参数",IDC_STATIC1,27,78,218,39,WS_DISABLED
+    LTEXT           "IP地址：",IDC_STATIC2,37,97,33,8,WS_DISABLED
+    CONTROL         "IPAddress1",IDC_IPADDRESS_SRC,"SysIPAddress32",
+                    WS_DISABLED | WS_TABSTOP,75,94,71,13,WS_EX_RTLREADING
+    LTEXT           "端口号：",IDC_STATIC3,165,97,33,8,WS_DISABLED
+    EDITTEXT        IDC_PORT_SRC,200,93,28,14,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "对方参数",IDC_STATIC4,27,122,218,39,WS_DISABLED
+    LTEXT           "IP地址：",IDC_STATIC5,37,141,33,8,WS_DISABLED
+    CONTROL         "IPAddress1",IDC_IPADDRESS_DEST,"SysIPAddress32",
+                    WS_DISABLED | WS_TABSTOP,75,138,71,13
+    LTEXT           "端口号：",IDC_STATIC6,165,141,33,8,WS_DISABLED
+    EDITTEXT        IDC_PORT_DEST,200,137,28,14,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "服务器参数",IDC_STATIC8,27,177,218,39,WS_DISABLED
+    LTEXT           "IP地址：",IDC_STATIC9,36,197,33,8,WS_DISABLED
+    CONTROL         "IPAddress1",IDC_IPADDRESS_TCPIPS,"SysIPAddress32",
+                    WS_DISABLED | WS_TABSTOP,74,193,71,13,WS_EX_RTLREADING
+    LTEXT           "端口号：",IDC_STATIC7,168,197,33,8,WS_DISABLED
+    EDITTEXT        IDC_PORT_TCPIPSERVER,203,193,31,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_DEVICEADDR,52,7,40,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "设备地址:",IDC_STATIC,13,10,37,8,WS_DISABLED
+    LTEXT           "轮询时间(ms):",IDC_STATIC,101,9,53,8,WS_DISABLED
+    EDITTEXT        IDC_EDIT_CYCLETIME,154,7,40,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    GROUPBOX        "服务器参数",IDC_STATIC10,27,233,218,39,WS_DISABLED
+    LTEXT           "IP地址：",IDC_STATIC11,35,253,33,8,WS_DISABLED
+    CONTROL         "IPAddress1",IDC_IPADDRESS_TCPIPC,"SysIPAddress32",
+                    WS_DISABLED | WS_TABSTOP,73,249,71,13,WS_EX_RTLREADING
+    LTEXT           "端口号：",IDC_STATIC12,167,253,33,8,WS_DISABLED
+    EDITTEXT        IDC_PORT_TCPIPCLIENT,203,249,31,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "超时时间(ms):",IDC_STATIC,101,26,53,8,WS_DISABLED
+    EDITTEXT        IDC_EDIT_TIMEOUT,154,24,40,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+END
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 58
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About IEC103Analysis"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,20,20
+    LTEXT           "IEC103Analysis Version 1.0",IDC_STATIC,40,7,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2013",IDC_STATIC,40,20,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+    PUSHBUTTON      "http://www.thinkbon.com",IDC_COMPANY_URL,40,36,119,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DLG_COMCFG, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 291
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DLG_COMCFG DLGINIT
+BEGIN
+    IDC_COMBO_COMM_PORT, 0x403, 5, 0
+0x4f43, 0x314d, "\000" 
+    IDC_COMBO_COMM_PORT, 0x403, 5, 0
+0x4f43, 0x324d, "\000" 
+    IDC_COMBO_COMM_PORT, 0x403, 5, 0
+0x4f43, 0x334d, "\000" 
+    IDC_COMBO_COMM_PORT, 0x403, 5, 0
+0x4f43, 0x344d, "\000" 
+    IDC_COMBO_COMM_PORT, 0x403, 5, 0
+0x4f43, 0x354d, "\000" 
+    IDC_COMBO_COMM_PORT, 0x403, 5, 0
+0x4f43, 0x364d, "\000" 
+    IDC_COMBO_COMM_PORT, 0x403, 5, 0
+0x4f43, 0x374d, "\000" 
+    IDC_COMBO_COMM_PORT, 0x403, 5, 0
+0x4f43, 0x384d, "\000" 
+    IDC_COMBO_COMM_PORT, 0x403, 5, 0
+0x4f43, 0x394d, "\000" 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x314d, 0x0030, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x314d, 0x0031, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x314d, 0x0032, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x314d, 0x0033, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x314d, 0x0034, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x314d, 0x0035, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x314d, 0x0036, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x314d, 0x0037, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x314d, 0x0038, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x314d, 0x0039, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x324d, 0x0030, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x324d, 0x0031, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x324d, 0x0032, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x324d, 0x0033, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x324d, 0x0034, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x324d, 0x0035, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x324d, 0x0036, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x324d, 0x0037, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x324d, 0x0038, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x324d, 0x0039, 
+    IDC_COMBO_COMM_PORT, 0x403, 6, 0
+0x4f43, 0x334d, 0x0030, 
+    IDC_COMBO_COMM_BAUD, 0x403, 4, 0
+0x3033, 0x0030, 
+    IDC_COMBO_COMM_BAUD, 0x403, 4, 0
+0x3036, 0x0030, 
+    IDC_COMBO_COMM_BAUD, 0x403, 5, 0
+0x3231, 0x3030, "\000" 
+    IDC_COMBO_COMM_BAUD, 0x403, 5, 0
+0x3432, 0x3030, "\000" 
+    IDC_COMBO_COMM_BAUD, 0x403, 5, 0
+0x3834, 0x3030, "\000" 
+    IDC_COMBO_COMM_BAUD, 0x403, 5, 0
+0x3639, 0x3030, "\000" 
+    IDC_COMBO_COMM_BAUD, 0x403, 6, 0
+0x3931, 0x3032, 0x0030, 
+    IDC_COMBO_COMM_BAUD, 0x403, 6, 0
+0x3833, 0x3034, 0x0030, 
+    IDC_COMBO_COMM_BAUD, 0x403, 6, 0
+0x3334, 0x3030, 0x0030, 
+    IDC_COMBO_COMM_BAUD, 0x403, 6, 0
+0x3635, 0x3030, 0x0030, 
+    IDC_COMBO_COMM_BAUD, 0x403, 6, 0
+0x3735, 0x3036, 0x0030, 
+    IDC_COMBO_COMM_BAUD, 0x403, 7, 0
+0x3131, 0x3235, 0x3030, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "Paste &Special...",           ID_EDIT_PASTE_SPECIAL
+        MENUITEM "Select A&ll\tCtrl+A",         ID_EDIT_SELECT_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "&Find...\tCtrl+F",            ID_EDIT_FIND
+        MENUITEM "F&ind Next\tF3",              ID_EDIT_REPEAT
+        MENUITEM "R&eplace\tCtrl+H",            ID_EDIT_REPLACE
+        MENUITEM SEPARATOR
+        MENUITEM "Insert &New Object...",       ID_OLE_INSERT_NEW
+        MENUITEM "Lin&ks...",                   ID_OLE_EDIT_LINKS
+        MENUITEM "Object P&roperties\tAlt+Enter", ID_OLE_EDIT_PROPERTIES
+        MENUITEM "<<OLE VERBS GO HERE>>",       ID_OLE_VERB_FIRST
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        POPUP "&Application Look"
+        BEGIN
+            MENUITEM "Office &2000",                ID_VIEW_APPLOOK_2000
+            MENUITEM "Office &XP",                  ID_VIEW_APPLOOK_XP
+            MENUITEM "Office 200&3",                ID_VIEW_APPLOOK_2003
+            MENUITEM "Visual Studio 200&5",         ID_VIEW_APPLOOK_VS2005
+            MENUITEM "&Windows Native",             ID_VIEW_APPLOOK_WIN_XP
+            POPUP "Office 200&7"
+            BEGIN
+                MENUITEM "&Blue Style",                 ID_VIEW_APPLOOK_2007
+                MENUITEM "B&lack Style",                ID_VIEW_APPLOOK_2007_1
+
+                MENUITEM "&Silver Style",               ID_VIEW_APPLOOK_2007_2
+
+                MENUITEM "&Aqua Style",                 ID_VIEW_APPLOOK_2007_3
+
+            END
+            MENUITEM "Visual Studio 200&8",         ID_VIEW_APPLOOK_VS2008
+            MENUITEM "Visual Studio 20&10",         ID_VIEW_APPLOOK_VS2010
+            POPUP "Office 2&010"
+            BEGIN
+                MENUITEM "&Blue Style",                 ID_VIEW_APPLOOK_2010_1
+
+                MENUITEM "B&lack Style",                ID_VIEW_APPLOOK_2010_2
+
+                MENUITEM "&Silver Style",               ID_VIEW_APPLOOK_2010_3
+
+            END
+            MENUITEM "W&indows 7",                  ID_VIEW_APPLOOK_WIN7
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About IEC103Analysis...",    ID_APP_ABOUT
+    END
+END
+
+IDR_CNTR_INPLACE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    MENUITEM SEPARATOR
+    MENUITEM SEPARATOR
+END
+
+IDR_CONTEXT_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "Cu&t",                        ID_EDIT_CUT
+        MENUITEM "&Copy",                       ID_EDIT_COPY
+        MENUITEM "&Paste",                      ID_EDIT_PASTE
+    END
+END
+
+IDR_PASTE_MENU MENU DISCARDABLE 
+BEGIN
+    MENUITEM "&Paste",                      ID_EDIT_PASTE
+    MENUITEM "Paste &Special...",           ID_EDIT_PASTE_SPECIAL
+END
+
+IDR_THEME_MENU MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Office 2007 &Blue Theme",     ID_VIEW_APPLOOK_2007
+    MENUITEM "Office 2007 B&lack Theme",    ID_VIEW_APPLOOK_2007_1
+    MENUITEM "Office 2007 &Silver Theme",   ID_VIEW_APPLOOK_2007_2
+    MENUITEM "Office 2007 &Aqua Theme",     ID_VIEW_APPLOOK_2007_3
+    MENUITEM SEPARATOR
+    MENUITEM "Office 2010 Bl&ue Theme",     ID_VIEW_APPLOOK_2010_1
+    MENUITEM "Office 2010 Blac&k Theme",    ID_VIEW_APPLOOK_2010_2
+    MENUITEM "Office 2010 Sil&ver Theme",   ID_VIEW_APPLOOK_2010_3
+    MENUITEM SEPARATOR
+    MENUITEM "Windows &7 Theme",            ID_VIEW_APPLOOK_WIN7
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    "A",            ID_EDIT_SELECT_ALL,     VIRTKEY, CONTROL
+    "F",            ID_EDIT_FIND,           VIRTKEY, CONTROL
+    VK_F3,          ID_EDIT_REPEAT,         VIRTKEY 
+    "H",            ID_EDIT_REPLACE,        VIRTKEY, CONTROL
+    VK_RETURN,      ID_OLE_EDIT_PROPERTIES, VIRTKEY, ALT, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+    VK_ESCAPE,      ID_CANCEL_EDIT_CNTR,    VIRTKEY, NOINVERT
+END
+
+IDR_CNTR_INPLACE ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+    VK_ESCAPE,      ID_CANCEL_EDIT_CNTR,    VIRTKEY, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "IEC103Analysis MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "IEC103Analysis\0"
+            VALUE "LegalCopyright", "Copyright (C) 2013\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "IEC103Analysis.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "IEC103Analysis Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "xptheme.xml"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+    IDP_FAILED_TO_CREATE    "Failed to create object.  Make sure the object is entered in the system registry."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "WordPad\nDocument\nWordPad Document\nWord for Windows 6.0 (*.doc)\n.DOC\nWordPad.Document.1\nWordPad Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "IEC103Analysis"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_DIRECT    "Send the document directly to the default printer without making changes\nQuick Print"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_PASTE_LINK      "Insert Clipboard contents and a link to its source\nPaste Link"
+    ID_EDIT_PASTE_SPECIAL   "Insert Clipboard contents with options\nPaste Special"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OLE_INSERT_NEW       "Insert new embedded object\nNew Object"
+    ID_OLE_EDIT_LINKS       "Edit linked objects\nEdit Links"
+    ID_OLE_EDIT_CONVERT     "Convert object to different type\nConvert Object"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OLE_VERB_FIRST       "Activate embedded or linked object"
+    57873                   "Activate embedded or linked object"
+    57874                   "Activate embedded or linked object"
+    57875                   "Activate embedded or linked object"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_APPLOOK_2000    "Activate Office 2000 application look\nOffice 2000 Look"
+    ID_VIEW_APPLOOK_XP      "Activate Office XP application look\nOffice XP Look"
+    ID_VIEW_APPLOOK_2003    "Activate Office 2003 application look\nOffice 2003 Look"
+    ID_VIEW_APPLOOK_WIN_XP  "Activate Windows Native application look\nWindows Native Look"
+    ID_VIEW_APPLOOK_VS2005  "Activate Visual Studio 2005 application look\nVS 2005 Look"
+    ID_VIEW_APPLOOK_2007    "Activate Office 2007 application look\nOffice 2007 Look (Blue)"
+    ID_VIEW_APPLOOK_2007_1  "Activate Office 2007 application look\nOffice 2007 Look (Black)"
+    ID_VIEW_APPLOOK_2007_2  "Activate Office 2007 application look\nOffice 2007 Look (Silver)"
+    ID_VIEW_APPLOOK_2007_3  "Activate Office 2007 application look\nOffice 2007 Look (Aqua)"
+    ID_VIEW_APPLOOK_VS2008  "Activate Visual Studio 2008 application look\nVS 2008 Look"
+    ID_VIEW_APPLOOK_VS2010  "Activate Visual Studio 2010 application look\nVS 2010 Look"
+    ID_VIEW_APPLOOK_2010_1  "Activate Office 2010 application look\nOffice 2010 Look (Blue)"
+    ID_VIEW_APPLOOK_2010_2  "Activate Office 2010 application look\nOffice 2010 Look (Black)"
+    ID_VIEW_APPLOOK_2010_3  "Activate Office 2010 application look\nOffice 2010 Look (Silver)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_STATUSBAR_PANE1      "Status bar indicator 1"
+    ID_STATUSBAR_PANE2      "Status bar indicator 2"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\IEC103Analysis.ico"
+IDR_IEC103TYPE          ICON    DISCARDABLE     "res\\IEC103AnalysisDoc.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\IEC103Analysis.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#include "afxolecl.rc"       // OLE container resources
+#include "res\BCGSoft_ribbon\IEC103Analysis.ribbon.rc2"    // BCG Designer resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,140 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "COMM"=.\COMM\COMM.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Public
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "DataViewN"=.\DataViewN\DataViewN.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "HN953L"=.\HN953L\HN953L.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "IEC103Analysis"=.\NPST\IEC103Analysis.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Public
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name COMM
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name NPS7510
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name UDP
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DataViewN
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name PM310
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name HN953L
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "NPS7510"=.\NPS7510\NPS7510.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Public
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "PM310"=.\PM310\PM310.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Public"=.\Public\Public.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "UDP"=.\UDP\UDP.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

@@ -1,0 +1,127 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Public - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\Debug\Public/Public.res" /d "_DEBUG" /d "_AFXDLL" "G:\VC\NZ\NPST\Public\Public.rc"" 
+Creating temporary file "D:\Temp\RSPF7CD.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /I ".\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /D "_PUBLIC_IMPL" /Fp"..\Debug\Public/Public.pch" /YX"stdafx.h" /Fo"..\Debug\Public/" /Fd"..\Debug\Public/" /FD /GZ /c 
+"G:\VC\NZ\NPST\Public\Public.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyData.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyDataBin.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyDataFloat.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyDataMem.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyDataOperate.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyDataString.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyDataVector.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyDataView.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyEnumSCI.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyEventMng.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyFactory.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyObj.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyPort.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyPortMng.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyRTWave.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyUnit.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyVector.cpp"
+"G:\VC\NZ\NPST\Pub\src\CMyWaveInfo.cpp"
+"G:\VC\NZ\NPST\Pub\src\Pub.cpp"
+"G:\VC\NZ\NPST\Public\CMyDlgRTWave.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPF7CD.tmp" 
+Creating temporary file "D:\Temp\RSPF7CE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /I ".\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /D "_PUBLIC_IMPL" /Fp"..\Debug\Public/Public.pch" /Yc"stdafx.h" /Fo"..\Debug\Public/" /Fd"..\Debug\Public/" /FD /GZ /c 
+"G:\VC\NZ\NPST\Public\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPF7CE.tmp" 
+Creating temporary file "D:\Temp\RSPF7CF.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"..\Pub/Public.pdb" /debug /machine:I386 /def:".\Public.def" /out:"..\bin/Public.dll" /implib:"..\Pub/Public.lib" /pdbtype:sept 
+\VC\NZ\NPST\Debug\Public\Public.obj
+\VC\NZ\NPST\Debug\Public\StdAfx.obj
+\VC\NZ\NPST\Debug\Public\Public.res
+\VC\NZ\NPST\Debug\Public\CMyData.obj
+\VC\NZ\NPST\Debug\Public\CMyDataBin.obj
+\VC\NZ\NPST\Debug\Public\CMyDataFloat.obj
+\VC\NZ\NPST\Debug\Public\CMyDataMem.obj
+\VC\NZ\NPST\Debug\Public\CMyDataOperate.obj
+\VC\NZ\NPST\Debug\Public\CMyDataString.obj
+\VC\NZ\NPST\Debug\Public\CMyDataVector.obj
+\VC\NZ\NPST\Debug\Public\CMyDataView.obj
+\VC\NZ\NPST\Debug\Public\CMyEnumSCI.obj
+\VC\NZ\NPST\Debug\Public\CMyEventMng.obj
+\VC\NZ\NPST\Debug\Public\CMyFactory.obj
+\VC\NZ\NPST\Debug\Public\CMyObj.obj
+\VC\NZ\NPST\Debug\Public\CMyPort.obj
+\VC\NZ\NPST\Debug\Public\CMyPortMng.obj
+\VC\NZ\NPST\Debug\Public\CMyRTWave.obj
+\VC\NZ\NPST\Debug\Public\CMyUnit.obj
+\VC\NZ\NPST\Debug\Public\CMyVector.obj
+\VC\NZ\NPST\Debug\Public\CMyWaveInfo.obj
+\VC\NZ\NPST\Debug\Public\Pub.obj
+\VC\NZ\NPST\Debug\Public\CMyDlgRTWave.obj
+]
+Creating command line "link.exe @D:\Temp\RSPF7CF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Public.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyData.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyDataBin.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyDataFloat.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyDataMem.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyDataOperate.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyDataString.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyDataVector.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyDataView.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyEnumSCI.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyEventMng.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyFactory.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyObj.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyPort.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyPortMng.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyRTWave.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyUnit.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyVector.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyWaveInfo.cpp
+Automatically linking with BCGCBPRO2210D.lib
+Pub.cpp
+Automatically linking with BCGCBPRO2210D.lib
+CMyDlgRTWave.cpp
+Automatically linking with BCGCBPRO2210D.lib
+G:\VC\NZ\NPST\Public\CMyDlgRTWave.cpp(250) : warning C4018: '<' : signed/unsigned mismatch
+Linking...
+   Creating library ..\Pub/Public.lib and object ..\Pub/Public.exp
+
+
+
+<h3>Results</h3>
+Public.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
