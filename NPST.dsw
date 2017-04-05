@@ -71,6 +71,18 @@ Package=<4>
     Begin Project Dependency
     Project_Dep_Name HN953L
     End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name LRS3611U
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name LRS3612U
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name MobusLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WaveForm
+    End Project Dependency
 }}}
 
 ###############################################################################
@@ -88,6 +100,18 @@ Package=<4>
 ###############################################################################
 
 Project: "LRS3612U"=.\LRS3612U\LRS3612U.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "MobusLib"=.\MobusLib\MobusLib.dsp - Package Owner=<4>
 
 Package=<5>
 {{{

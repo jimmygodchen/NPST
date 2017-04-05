@@ -78,7 +78,7 @@ BSC32=bscmake.exe
 # ADD BSC32 /nologo
 LINK32=link.exe
 # ADD BASE LINK32 /nologo /subsystem:windows /dll /debug /machine:I386 /pdbtype:sept
-# ADD LINK32 ..\Pub\Public.lib ws2_32.lib /nologo /subsystem:windows /dll /debug /machine:I386 /out:"..\bin\UDP.dll" /pdbtype:sept
+# ADD LINK32 ..\Pub\Public.lib ws2_32.lib /nologo /subsystem:windows /dll /debug /machine:I386 /out:"..\bin\dll\UDP.dll" /pdbtype:sept
 
 !ENDIF 
 

@@ -1,24 +1,24 @@
-# Microsoft Developer Studio Project File - Name="NPS7510" - Package Owner=<4>
+# Microsoft Developer Studio Project File - Name="MobusLib" - Package Owner=<4>
 # Microsoft Developer Studio Generated Build File, Format Version 6.00
 # ** DO NOT EDIT **
 
 # TARGTYPE "Win32 (x86) Dynamic-Link Library" 0x0102
 
-CFG=NPS7510 - Win32 Debug
+CFG=MobusLib - Win32 Debug
 !MESSAGE This is not a valid makefile. To build this project using NMAKE,
 !MESSAGE use the Export Makefile command and run
 !MESSAGE 
-!MESSAGE NMAKE /f "NPS7510.mak".
+!MESSAGE NMAKE /f "MobusLib.mak".
 !MESSAGE 
 !MESSAGE You can specify a configuration when running NMAKE
 !MESSAGE by defining the macro CFG on the command line. For example:
 !MESSAGE 
-!MESSAGE NMAKE /f "NPS7510.mak" CFG="NPS7510 - Win32 Debug"
+!MESSAGE NMAKE /f "MobusLib.mak" CFG="MobusLib - Win32 Debug"
 !MESSAGE 
 !MESSAGE Possible choices for configuration are:
 !MESSAGE 
-!MESSAGE "NPS7510 - Win32 Release" (based on "Win32 (x86) Dynamic-Link Library")
-!MESSAGE "NPS7510 - Win32 Debug" (based on "Win32 (x86) Dynamic-Link Library")
+!MESSAGE "MobusLib - Win32 Release" (based on "Win32 (x86) Dynamic-Link Library")
+!MESSAGE "MobusLib - Win32 Debug" (based on "Win32 (x86) Dynamic-Link Library")
 !MESSAGE 
 
 # Begin Project
@@ -29,7 +29,7 @@ CPP=cl.exe
 MTL=midl.exe
 RSC=rc.exe
 
-!IF  "$(CFG)" == "NPS7510 - Win32 Release"
+!IF  "$(CFG)" == "MobusLib - Win32 Release"
 
 # PROP BASE Use_MFC 6
 # PROP BASE Use_Debug_Libraries 0
@@ -54,7 +54,7 @@ LINK32=link.exe
 # ADD BASE LINK32 /nologo /subsystem:windows /dll /machine:I386
 # ADD LINK32 /nologo /subsystem:windows /dll /machine:I386
 
-!ELSEIF  "$(CFG)" == "NPS7510 - Win32 Debug"
+!ELSEIF  "$(CFG)" == "MobusLib - Win32 Debug"
 
 # PROP BASE Use_MFC 6
 # PROP BASE Use_Debug_Libraries 1
@@ -63,12 +63,12 @@ LINK32=link.exe
 # PROP BASE Target_Dir ""
 # PROP Use_MFC 6
 # PROP Use_Debug_Libraries 1
-# PROP Output_Dir "..\Debug\NPS7510"
-# PROP Intermediate_Dir "..\Debug\NPS7510"
+# PROP Output_Dir ".\"
+# PROP Intermediate_Dir "..\Debug\Modbuslib"
 # PROP Ignore_Export_Lib 0
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /Yu"stdafx.h" /FD /GZ /c
-# ADD CPP /nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR /YX"stdafx.h" /FD /GZ /c
+# ADD CPP /nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Pub\inc" /I ".\inc" /I ".\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /D "_MODBUSLIB_IMPL" /FR /YX"stdafx.h" /FD /GZ /c
 # ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /win32
 # ADD MTL /nologo /D "_DEBUG" /mktyplib203 /win32
 # ADD BASE RSC /l 0x804 /d "_DEBUG" /d "_AFXDLL"
@@ -78,60 +78,36 @@ BSC32=bscmake.exe
 # ADD BSC32 /nologo
 LINK32=link.exe
 # ADD BASE LINK32 /nologo /subsystem:windows /dll /debug /machine:I386 /pdbtype:sept
-# ADD LINK32 ..\Pub\Public.lib winmm.lib /nologo /subsystem:windows /dll /debug /machine:I386 /out:"..\bin\dll\NPS7510.dll" /pdbtype:sept
+# ADD LINK32 ..\Pub\Public.lib winmm.lib /nologo /subsystem:windows /dll /debug /machine:I386 /out:"..\Bin\dll\MobusLib.dll" /pdbtype:sept
 
 !ENDIF 
 
 # Begin Target
 
-# Name "NPS7510 - Win32 Release"
-# Name "NPS7510 - Win32 Debug"
+# Name "MobusLib - Win32 Release"
+# Name "MobusLib - Win32 Debug"
 # Begin Group "Source Files"
 
 # PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
 # Begin Source File
 
-SOURCE=.\CMyDlgParam.cpp
+SOURCE=.\CMyDlgUnitParam.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\CMyDlgRegulate.cpp
+SOURCE=.\src\CMyUnitModbus.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\CMyDlgSetpoint.cpp
+SOURCE=.\MobusLib.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\CMyDlgYC.cpp
+SOURCE=.\MobusLib.def
 # End Source File
 # Begin Source File
 
-SOURCE=.\CMyGridCtrl.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\CMyNPS7510Dlg.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\CMyOpenList.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\customcells.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\NPS7510.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\NPS7510.def
-# End Source File
-# Begin Source File
-
-SOURCE=.\NPS7510.rc
+SOURCE=.\MobusLib.rc
 # End Source File
 # Begin Source File
 
@@ -144,39 +120,15 @@ SOURCE=.\StdAfx.cpp
 # PROP Default_Filter "h;hpp;hxx;hm;inl"
 # Begin Source File
 
-SOURCE=.\CMyDlgParam.h
+SOURCE=.\CMyDlgUnitParam.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\CMyDlgRegulate.h
+SOURCE=.\inc\CMyUnitModbus.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\CMyDlgSetpoint.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\CMyDlgYC.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\CMyGridCtrl.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\CMyNPS7510Dlg.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\CMyOpenList.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\customcells.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\NPS7510.h
+SOURCE=.\inc\ModbusLib.h
 # End Source File
 # Begin Source File
 
@@ -192,12 +144,12 @@ SOURCE=.\StdAfx.h
 # PROP Default_Filter "ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"
 # Begin Source File
 
-SOURCE=.\res\NPS7510.rc2
+SOURCE=.\res\MobusLib.rc2
 # End Source File
-# End Group
 # Begin Source File
 
 SOURCE=.\ReadMe.txt
 # End Source File
+# End Group
 # End Target
 # End Project

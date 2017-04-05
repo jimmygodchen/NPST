@@ -78,7 +78,7 @@ BSC32=bscmake.exe
 # ADD BSC32 /nologo
 LINK32=link.exe
 # ADD BASE LINK32 /nologo /subsystem:windows /dll /debug /machine:I386 /pdbtype:sept
-# ADD LINK32 ..\Pub\Public.lib winmm.lib /nologo /subsystem:windows /dll /debug /machine:I386 /out:"..\Bin\LRS3611U.dll" /pdbtype:sept
+# ADD LINK32 ..\Pub\Public.lib winmm.lib /nologo /subsystem:windows /dll /debug /machine:I386 /out:"..\Bin\dll\LRS3611U.dll" /pdbtype:sept
 
 !ENDIF 
 

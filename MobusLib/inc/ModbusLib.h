@@ -8,29 +8,21 @@
 // Date:
 //-----------------------------------------------------------------------------------------------------
 
-#ifndef __CMYDATAOPERATE_H
-#define __CMYDATAOPERATE_H
+#ifndef __MODBUSLIB_H
+#define __MODBUSLIB_H
 
-//---------------------------------------------- CMyDataOperate ---------------
-class CLASS_EXPORT CMyDataOperate:public CMyData
-{
-public:
-    DECLARE_SERIAL(CMyDataOperate);
-    CMyDataOperate();
+#ifdef _MODBUSLIB_IMPL
+#define CLASSMODBUS_EXPORT AFX_CLASS_EXPORT
+#else
+#define CLASSMODBUS_EXPORT AFX_CLASS_IMPORT
+#endif
 
-protected:
-    BYTE m_OperateCode;
+extern AFX_EXTENSION_MODULE MobusLibDLL;
 
-public:
-    inline BYTE GetOperateCode(void){ return m_OperateCode; };
-    virtual BOOL ExeOperate(void);
-    virtual void EndOperate(void);
-    virtual void SetOperateCode(BYTE OperateCode=0xff);
+#include "Pub.h"
+#include "inc\CMyUnitModbus.h"
 
-};
-
-
-#endif/*__CMYDATAOPERATE_H*/
+#endif/*__MODBUSLIB_H*/
 
 
 //-----------------------------------------------------------------------------------------------------
