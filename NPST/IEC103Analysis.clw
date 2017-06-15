@@ -15,17 +15,17 @@ Class3=CIEC103AnalysisView
 Class4=CMainFrame
 
 ResourceCount=8
-Resource1=IDR_THEME_MENU
-Resource2=IDR_MAINFRAME
+Resource1=IDD_ABOUTBOX
+Resource2=IDR_PASTE_MENU
 Resource4=IDD_PORT_SCI
 Class5=CAboutDlg
-Resource3=IDR_CNTR_INPLACE
-Resource5=IDD_ABOUTBOX
-Resource6=IDR_PASTE_MENU
-Resource7=IDR_CONTEXT_MENU
+Resource3=IDR_MAINFRAME
+Resource5=IDR_CONTEXT_MENU
+Resource6=IDD_DLG_COMCFG
+Resource7=IDR_THEME_MENU
 Class6=CMyCOMCfg
 Class7=CMyPortSCIDlg
-Resource8=IDD_DLG_COMCFG
+Resource8=IDR_CNTR_INPLACE
 
 [CLS:CIEC103AnalysisApp]
 Type=0

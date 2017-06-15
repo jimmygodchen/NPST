@@ -153,6 +153,7 @@ int CWaveFormApp::ExitInstance()
 {
 	BCGCBProCleanUp();
 // 	FreeLibrary (m_hinstBCGCBRes);
+//     CleanState();
 
 	return CWinApp::ExitInstance();
 }
